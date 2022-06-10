@@ -8,7 +8,7 @@ url: https://nulll0x1.github.io
 domain: nulll0x1.github.io
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 #  - jekyll-include-cache
