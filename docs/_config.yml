@@ -1,0 +1,72 @@
+#Site Settings 
+title: "Null0x1's Blog"
+title_separator: "- Wireless and IoT Hacking"
+name: "Muhammad Refaat"
+description: "Wireless and IoT Security Blog, Explaining, Examining, and Researching an Interseting, and Limited Topics in Cyber-World."
+baseurl: "/"
+url: https://nulll0x1.github.io
+domain: nulll0x1.github.io
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+#  - jekyll-include-cache
+#  - jekyll-paginate
+#  - jekyll-target-blank
+
+#Paginating
+paginate: 5
+paginate_path: /page:num/
+permalink: /:categories/:title/
+
+#Theme Settings 
+#minimal_mistakes_skin: default
+locale: "en"
+
+future: true
+
+atom_feed:
+  hide: true
+
+author:
+  name : "Muhammad Refaat"
+  avatar: "/images/avatar.jpg"
+  bio: 'Documenting What I Have Learned '
+  location: "Everywhere"
+
+#Defaults 
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      toc: true
+      toc_label: Contents
+      show_date: true
+      read_time: true  
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      classes: wide
+      author_profile: true  
+  -
+    scope:
+      path: ""
+      type: index
+    values:
+      layout: single
+      author_profile: true
+
+#Search
+search                   : true 
+search_full_content      : true 
+search_provider          : lunr
+
