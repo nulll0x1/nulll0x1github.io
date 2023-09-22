@@ -6,11 +6,11 @@ Programs begin as source code, which defines their behavior and computations for
 
 Computers cannot directly execute source code; it must be translated into machine instructions by compilers. In Linux for example, GCC is a widely used collection of compilers that includes a C compiler for converting C code into ELF binaries which can be directly executed. G++ also used for compiling C++ code. The compilation process is illustrated in Figure 2.1.
 
-<img src="broken-reference" alt="Figure2.1: The Compilation Process " class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw.svg" alt="Figure2.1: The Compilation Process " class="gitbook-drawing">
 
 Reverse engineering is essentially the opposite of what a compiler does. Instead of starting with source code, reverse engineering begins with a program binary and attempts to understand the programmer's intended higher-level functionality. To facilitate this process, understanding the components and purposes of the ELF file format is beneficial.
 
-<img src="broken-reference" alt="Figure2.2: Forward Engineering vs. Reverse Engineering" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (1).svg" alt="Figure2.2: Forward Engineering vs. Reverse Engineering" class="gitbook-drawing">
 
 ### High-Level vs. Low-Level Languages
 
@@ -187,9 +187,7 @@ The ELF file header, found at the start of an ELF file, contains crucial informa
 
 `null@ARM64:~$ readelf printf32.o -h`
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
-
-Figure2.3: **Readelf output diff between printf64.so and print32.o**
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figure2.3: <strong>Readelf output diff between printf64.so and print32.o</strong></p></figcaption></figure>
 
 The ELF file header can be categorized into four main groups of fields:
 
