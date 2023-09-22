@@ -1,14 +1,15 @@
 # Table of contents
 
-## Hardware
+* [0x00's Blog Space](README.md)
 
-* [Hardware Security](README.md)
-  * [Introduction](hardware/hardware-security/introduction.md)
-  * [Electronics and Serial Ports](hardware/hardware-security/electronics-and-serial-ports.md)
-  * [Information Gathering](hardware/hardware-security/information-gathering.md)
-  * [Fault Injection](hardware/hardware-security/fault-injection.md)
+## Hardware Hacking
 
-## Reverse Engineering
+* [Introduction and Basic Concepts](hardware-hacking/introduction-and-basic-concepts.md)
+* [Electronics and Serial Ports](hardware-hacking/electronics-and-serial-ports.md)
+* [Information Gathering](hardware-hacking/information-gathering.md)
+* [Fault Injection](hardware-hacking/fault-injection.md)
 
-* [ARM Reverse Engineering](reverse-engineering/arm-reverse-engineering.md)
-* [ELF File Internals](reverse-engineering/elf-file-internals.md)
+## Arm Reverse Engineering
+
+* [Introduction](arm-reverse-engineering/introduction.md)
+* [ELF File Internals](arm-reverse-engineering/elf-file-internals.md)
